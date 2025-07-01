@@ -1,0 +1,76 @@
+<!DOCTYPE html><html><head>
+
+
+<title>Shopify Contact Options</title>
+<meta charset="utf-8">
+<base href="./">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" href="image/icon/icon.svg">
+<style>
+	div#root {
+		display: flex; flex-flow: row wrap; align-items: center; justify-content: center;
+		width: 100%; height: 100%;
+	}
+	div#page {
+		margin: auto;margin-top: 1vh; padding: 0 25px 25px 25px;
+		width: min(75vh,95vw); height: 97vh;
+		border: 2px solid #777777; box-shadow: 10px 10px 10px #777777;
+		font-family: "Times New Roman", sans-serif; text-align: justify; font-size: 1.2em;
+		overflow-y: scroll; scrollbar-width: thin; scrollbar-color: #4b4b7c #bababa;
+	}
+	div#page::-webkit-scrollbar{width:.5vw}
+	div#page::-webkit-scrollbar-track{background:#bababa}
+	div#page::-webkit-scrollbar-thumb{background-color:#4b4b7c;border-radius:20px}
+	header { 
+			padding: 25px 0 10px 0;
+			position: sticky; top: 0; z-index: 99;
+			background-color: #ffffff;
+			display: flex; justify-content: space-between; flex-wrap: wrap; 
+			text-align: start; font-size: .8em;
+		}
+		h1 { font-weight: bold }
+		div#page p { padding: 0; margin: 0 0 10px 0 }
+		h2 { font-weight: bold; font-style: italic; text-align: center }
+		h3 { font-weight: normal; text-decoration: underline } 
+</style>
+
+
+</head><body><div id="root">
+
+
+<div id="page">
+	<header><h1>Shopify Contact Options</h1></header>
+
+	<h2>Option 1 - Default</h2>
+	<p>Shopify comes with a default option to create a contact page. On any one of your pages, you can add a “contact form” section. You already have this method.</p>
+	<p>This will automatically ask for a name, email address, phone number, and comment. This will send an email to the address attached to the account with the information.</p>
+	<h3>Pros:</h3><ul>
+		<li>Quick and Simple</li>
+		<li>Email sending allows marketers/sales representatives to handle each query at their leisure</li></ul>
+	<h3>Cons:</h3><p>Alerts can be slow, making responses slow, and potentially losing the sale</p>
+	<h3>Notes:</h3><p>The form’s look is partially customizable through the provided editor. If different fields to fill out are needed, they can be changed with code.</p>
+	
+	<h2>Option 2 - Quick Link to Text</h2>
+	<p>A basic is to supply a phone number to contact, but that alone is not enough in a modern world. The functionality can be easily enhanced with a fancy link. A button with a properly formatted link can send someone directly to their messaging app with the supplied phone number already pulled up and ready to text. With just a bit more work, it can even be prefilled, like this <a href="sms://+18016914535;?&body=Wow%21+Would+you+look+at+that%21+The+link+that+I+pressed+brought+me+to+this+text+thread+automatically%2C+and+already+has+my+text+written+out+for+me%21">example link</a>.</p>
+	<h3>Pros:</h3><ul>
+		<li>Easy to add</li>
+		<li>Doesn't burden the site with too many buttons and fields to fill</li>
+		<li>Allows for the sales team to immediatly start the conversation as soon as they are available</li></ul>
+	<h3>Cons:</h3><p>They may not give details to start, so the sales representative would potentially have to ask several questions</p>
+	<h3>Notes:</h3><p>If you don't already have a seperate number to run your business, I highly recommend it. The best option is Google Voice, which will give you a phone number attached to your personal number and an email address, which you could share to all of your trusted associates. Anyone with the account could access and text with that number from computer or cell phone app.</p>
+
+	<h2>Option 3 - Fill form to Text</h2>
+	<p>The last options showed a way to send a prefilled text to a number. If you feel that people need to answer some questions and give details before contacting you, then you can make a form like the first option and then have it fill out that text.<br>If a user is on a computer (less likey use case) and fill everything out and then press submit, it will show them their responses and tell them to text it to a number. If they fill it out on a phone, the submit button will take them to the text thread, just like the previous link, but have that information pre-filled. This <a href="sms://+18016914535;?&body=Name%3A%20Malory%20Gillet%0AHair%20Color%3A%20pink%21%0AQuestions%3A%20I%27m%20wondering%20if%20your%20extensions%20are%20dye-able%20so%20that%20I%20can%20match%20my%20hair%20color%2C%20and%20which%20product%20do%20you%20recommend%20to%20do%20so%3F%0APromotions%3A%20First%20time%20buyer%0A">example link</a> will show you what a user would see after filling out a form (obviously, the fields and answers they type will be different from my example).</p>
+	<h3>Pros:</h3><ul>
+		<li>Gets you information about them immediately</li>
+		<li>Allows for the sales team to immediatly start the conversation as soon as they are available</li></ul>
+	<h3>Cons:</h3><p>Computer users might be dissapointed to see that they still have to text you after all.</p>
+	<h3>Notes:</h3><p>You could disable the forms for computer users and just show them to text the number, or recommend they use a phone to contact. You could also merge this one with the first option, allowing computer users to send an email instead of text, but still getting texts from mobile users.</p>
+
+	<h2>Futher Options - Fancy but Costly</h2>
+	<p>There are certainly other options, like integrating a chatbot into the website itself so people can immediatly text outside of their mobile services, but these are not only costly but tend to be annoying to customers. It makes the site look coporate instead of personal, which may be poorly received by your audience.</p>
+
+</div>
+
+
+</div></body></html>
